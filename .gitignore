@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+models/
+outputs/
+wandb/
+.cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
