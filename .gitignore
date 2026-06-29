@@ -1,12 +1,78 @@
+# ===========================
+# Virtual Environment
+# ===========================
 venv/
+.venv/
+
+# ===========================
+# Python
+# ===========================
 __pycache__/
+*.py[cod]
+*$py.class
+
+# ===========================
+# Jupyter
+# ===========================
 .ipynb_checkpoints/
+
+# ===========================
+# Environment Variables
+# ===========================
 .env
-models/
-outputs/
-wandb/
+.env.*
+
+# ===========================
+# Hugging Face Cache
+# ===========================
 .cache/
+huggingface/
+
+# ===========================
+# Models & Checkpoints
+# ===========================
+models/
+checkpoints/
+outputs/
+runs/
+
 *.bin
-*.safetensors
 *.pt
 *.pth
+*.safetensors
+*.ckpt
+
+trainer_state.json
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# ===========================
+# Experiment Tracking
+# ===========================
+wandb/
+mlruns/
+tensorboard/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+
+# ===========================
+# Operating System
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp

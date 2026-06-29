@@ -1,0 +1,18 @@
+Baseline Accuracy: 0.9975
+
+Classification Report:
+                       precision    recall  f1-score   support
+
+    Application Crash       1.00      1.00      1.00       200
+       Backhaul Issue       1.00      1.00      1.00        74
+  Configuration Error       1.00      1.00      1.00        45
+   Core Network Issue       1.00      1.00      1.00        12
+         Interference       1.00      1.00      1.00        14
+   Memory/Cache Error       1.00      0.99      0.99        87
+               Normal       0.99      1.00      1.00       117
+         Power Outage       0.00      0.00      0.00         1
+Transport Degradation       1.00      1.00      1.00       250
+
+             accuracy                           1.00       800
+            macro avg       0.89      0.89      0.89       800
+         weighted avg       1.00      1.00      1.00       800
